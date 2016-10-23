@@ -2,7 +2,7 @@
 
 This repository contains Kodi addons used for automation in a home theater.
 
-service.aspect-ratio-changer
+### service.aspect-ratio-changer
 
 This addon connects via the RS-232 (serial port) to a Panasonic AE4000U projector and select a lens memory preset based on the Aspect ratio of the content.  The addon will (optionally) query IMDB to find the aspect ratio for the movie.  This is desireable because if the black bars are encoded within the video file the aspect ratio reported by Kodi will be incorrect.  Alternatively the user can override the AR of the title by selecting it via the menu.
 
@@ -17,7 +17,11 @@ In order to access these commands, insert them into your keymaps file and bind t
 <f5>SetProperty(aspectratiochanger-set185, true, 10000)</f5>
 <f6>SetProperty(aspectratiochanger-showmenu, true, 10000)</f6>
 
-service-insteon
+Todo:
+-Make additional commands for other distinct ARs available via keypresses
+-Move the configuration mapping of AR to lens memory to a configuration file.
+
+### service-insteon
 
 This addon connects via the RS-232 (serial port) to an Insteon PowerLinc Modem (PLM).  Specifically I have tested with the 2413S.  The addon will set the light level of the Insteon dimmer upon video start/stop/pause/resume functions.  
 
@@ -27,4 +31,3 @@ Additionally keypresses can be bound to initiate specific lighting levels:
 <f12>SetProperty(insteon-alldim, true, 10000)</f12>
 
 Note:  This addon does not work with any of the Insteon HUBs - those are externally programmed via a REST api, and a kodi plugin exists elsewhere to work with that.
-
