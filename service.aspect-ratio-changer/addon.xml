@@ -1,0 +1,16 @@
+<addon id="service.aspect-ratio-changer" name="Projector Aspect Ratio Changer" version="1.0.5" provider-name="dbrodie">
+	<requires>
+		<import addon="xbmc.python" version="2.1.2"/>
+        <import addon="script.module.html5lib" version="0.999.0"/>
+		<import addon="script.module.pyserial" version="2.7.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">Change aspect ratios on the projector</summary>
+		<description lang="en">Adjust Projector lens based on Aspect Ratio of content.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<source></source>
+	</extension>
+</addon>

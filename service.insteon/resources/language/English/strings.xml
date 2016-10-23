@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30001">General</string>
+  <string id="30050">PLM Com Port</string>
+  <string id="30053">Kodi restart is required for Com port changes</string>
+</strings>

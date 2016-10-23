@@ -1,0 +1,15 @@
+<addon id="service.insteon" name="Insteon Light Interface" version="1.0.3" provider-name="dbrodie">
+	<requires>
+		<import addon="xbmc.python" version="2.1.2"/>
+        <import addon="script.module.pylights" version="0.0.5"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">Control Insteon devices</summary>
+		<description lang="en">Interface with Insteon PLM and control lights based on keypresses and/or when video starts, pauses, stops.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<source></source>
+	</extension>
+</addon>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30001">General</string>
+  <string id="30002">Projector Settings</string>
+  <string id="30050">Restore aspect ratio on pause</string>
+  <string id="30051">Retrieve aspect ratios from IMDB for movies</string>
+  <string id="30052">Serial Port</string>
+  <string id="30053">Kodi restart is required for Com port changes</string>
+  <string id="30100">Projector</string>
+  <string id="30101">Default Setting</string>
+  <string id="30102">Setting for 4:3</string>
+  <string id="30103">Setting for 16:9</string>
+  <string id="30104">Setting for 1.85:1</string>
+  <string id="30105">Setting for 2.35:1</string>
+  <string id="30106">Setting for 2.40:1</string>
+  <string id="30200">Aspect Ratio Changer</string>
+  <string id="30204">Override this video to 1.85:1</string>
+  <string id="30205">Override this video to 2.35:1</string>
+  <string id="30301">Lens Memory 1</string>
+  <string id="30302">Lens Memory 2</string>
+  <string id="30303">Lens Memory 3</string>
+  <string id="30304">Lens Memory 4</string>
+  <string id="30305">Lens Memory 5</string>
+</strings>

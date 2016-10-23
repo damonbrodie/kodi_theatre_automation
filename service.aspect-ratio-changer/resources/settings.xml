@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30001">
+    <setting id="port" type="select" label="30052" values="Com1|Com1|Com3|Com4|Com5|Com6" />
+	<setting label="30053" type="lsep"/>
+    <setting label="30050" id="restoreonpause" type="bool" default="false"/>
+    <setting label="30051" id="useimdb" type="bool" default="false"/>
+	
+  </category>
+  <category label="30002">
+    <setting id="pj_ar_4_3" type="enum" label="30102" lvalues="30301|30302|30303|30304|30305" />
+	<setting id="pj_ar_16_9" type="enum" label="30103" values="0|1|2|3|4" lvalues="30301|30302|30303|30304|30305" />
+	<setting id="pj_ar_1.85_1" type="enum" label="30104" values="0|1|2|3|4" lvalues="30301|30302|30303|30304|30305" />
+	<setting id="pj_ar_235_1" type="enum" label="30105" values="0|1|2|3|4" lvalues="30301|30302|30303|30304|30305" />
+	<setting id="pj_ar_240_1" type="enum" label="30106" values="0|1|2|3|4" lvalues="30301|30302|30303|30304|30305" />
+  </category>
+</settings>

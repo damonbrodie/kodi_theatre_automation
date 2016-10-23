@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30001">
+	<setting id="port" type="select" label="30050" values="Com1|Com1|Com3|Com4|Com5|Com6" />
+	<setting label="30053" type="lsep"/>
+  </category>
+</settings>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pyserial"
+       name="pyserial"
+       version="2.7.0"
+       provider-name="Damon Brodie (damon.brodie@gmail.com)">
+  <requires>
+    <import addon="xbmc.python" 
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python API serial ports</summary>
+    <description>Provides a Python API for accessing the computer's serial ports.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><Devices>
+  <Device>
+    <name>Living Room</name>
+    <shortName>lvroom</shortName>
+    <devType>Dimmer</devType>
+    <address>12.69.D6</address>
+    <level>0</level>
+    <respondsToBtn>1A.1A.CC:4</respondsToBtn>
+  </Device>
+  <Device>
+    <name>Lower Stairway</name>
+    <shortName>lower</shortName>
+    <devType>Switch</devType>
+    <address>1A.1A.CC</address>
+    <level>0</level>
+  </Device>
+  <Device>
+    <name>Garage Door</name>
+    <shortName>garage</shortName>
+    <devType>GarageIO</devType>
+    <address>15.E4.3B</address>
+    <level>0</level>
+    <group>1</group>
+  </Device>
+</Devices>
