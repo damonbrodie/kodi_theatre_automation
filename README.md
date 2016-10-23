@@ -4,7 +4,7 @@ This repository contains Kodi addons used for automation in a home theater.
 
 ### service.aspect-ratio-changer
 
-This addon connects via the RS-232 (serial port) to a Panasonic AE4000U projector and select a lens memory preset based on the Aspect ratio of the content.  The addon will (optionally) query IMDB to find the aspect ratio for the movie.  This is desireable because if the black bars are encoded within the video file the aspect ratio reported by Kodi will be incorrect.  Alternatively the user can override the AR of the title by selecting it via the menu.
+This addon connects via the RS-232 (serial port) to a Panasonic AE4000U projector and select a lens memory preset based on the aspect ratio of the content.  The addon will (optionally) query IMDB to find the aspect ratio for the movie.  This is desireable because if the black bars are encoded within the video file the aspect ratio reported by Kodi will be incorrect.  Alternatively the user can override the AR of the title by selecting it via the menu.
 
 There are three commands that can be tied to keypresses:
  - aspectratiochanger-set235 (Sets the projector AR to 2.35:1)
@@ -31,3 +31,11 @@ Additionally keypresses can be bound to initiate specific lighting levels:
 <f12>SetProperty(insteon-alldim, true, 10000)</f12>
 
 Note:  This addon does not work with any of the Insteon HUBs - those are externally programmed via a REST api, and a kodi plugin exists elsewhere to work with that.
+
+### script.module.pylights
+
+Provides the [pylights](https://sourceforge.net/projects/pylights/) python module required for the service-insteon addon.
+
+### script.module.pyserial
+
+Provides the [pyserial]( "https://pypi.python.org/pypi/pyserial/2.7") python module required for the service-insteon and service-aspectratiochanger addons.
