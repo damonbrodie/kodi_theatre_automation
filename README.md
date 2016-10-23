@@ -4,7 +4,7 @@ This repository contains Kodi addons used for automation in a home theater.
 
 ### service.aspect-ratio-changer
 
-This addon connects via the RS-232 (serial port) to a Panasonic AE4000U projector and select a lens memory preset based on the aspect ratio of the content.  The addon will (optionally) query IMDB to find the aspect ratio for the movie.  This is desireable because if the black bars are encoded within the video file the aspect ratio reported by Kodi will be incorrect.  Alternatively the user can override the AR of the title by selecting it via the menu.
+This addon connects via the RS-232 (serial port) to a Panasonic AE4000U projector (other Panasonic projectors may work out of the box.  Small adaptations can probably be easily made for other projectors that can be adjusted via RS-232 as well) and select a lens memory preset based on the aspect ratio of the content.  The addon will (optionally) query IMDB to find the aspect ratio for the movie.  This is desireable because if the black bars are encoded within the video file the aspect ratio reported by Kodi will be incorrect.  Alternatively the user can override the AR of the title by selecting it via the menu.
 
 There are three commands that can be tied to keypresses:
  - aspectratiochanger-set235 (Sets the projector AR to 2.35:1)
